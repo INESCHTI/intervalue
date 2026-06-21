@@ -1,0 +1,6 @@
+requests
+selenium
+pytesseract
+pillow
+pydantic
+appium-python-client

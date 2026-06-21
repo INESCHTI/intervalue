@@ -1,0 +1,8 @@
+# Ignorer tous les fichiers PDF
+*.pdf
+
+# Ignorer tous les fichiers Markdown
+*.md
+
+# MAIS garder README.md
+!README.md

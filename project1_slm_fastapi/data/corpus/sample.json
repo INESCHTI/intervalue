@@ -1,0 +1,14 @@
+[
+  {
+    "id": "p1-1",
+    "task": "summarize",
+    "model": "mistral",
+    "text": "Le projet vise à déployer des SLMs en local et à les exposer via une API FastAPI."
+  },
+  {
+    "id": "p1-2",
+    "task": "extract",
+    "model": "mistral",
+    "text": "Acme a généré 1 200 000 € de revenus en 2025."
+  }
+]

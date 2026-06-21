@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: project2-agentic-testing
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: project2-agentic-testing
+  template:
+    metadata:
+      labels:
+        app: project2-agentic-testing
+    spec:
+      containers:
+        - name: runner
+          image: project2_agentic_testing:latest
+          command: ["python", "-m", "project2_agentic_testing.src.testing_agentic.orchestrator"]
