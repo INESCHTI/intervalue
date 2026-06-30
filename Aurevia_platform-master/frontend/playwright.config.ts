@@ -10,7 +10,7 @@ export default defineConfig({
   workers: 1,
   reporter: [['list'], ['html', { open: 'never' }]],
   webServer: {
-    command: 'npm.cmd run dev -- --host 127.0.0.1',
+    command: 'node_modules\\.bin\\vite.cmd --host 127.0.0.1',
     url: 'http://127.0.0.1:5173',
     reuseExistingServer: true,
     timeout: 30_000,

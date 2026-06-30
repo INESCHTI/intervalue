@@ -26,6 +26,9 @@ images:
   voice:
     repository: wealthmesh/voice
     tag: latest
+  frontend:
+    repository: wealthmesh/frontend
+    tag: latest
 
 # Replica counts â€” keep 1 for RTX 2050 (4GB VRAM, one LLM at a time)
 replicas:
@@ -36,6 +39,7 @@ replicas:
   agentAction: 1
   agentQa: 1
   voice: 1
+  frontend: 1
 
 # Resource limits tuned for dev laptop
 resources:
@@ -79,7 +83,8 @@ ingress:
   host: wealthmesh.local
 
 keycloak:
-  url: "http://keycloak:8080"
+  enabled: true
+  url: ""
   realm: wealth
   clientId: wealth-backend
 

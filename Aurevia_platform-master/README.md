@@ -79,6 +79,7 @@ A conversational private-banking assistant covering AUM queries, TWR, IRR, Sharp
 - Python 3.12+ and [uv](https://docs.astral.sh/uv/)
 - Docker Desktop
 - [Ollama](https://ollama.ai/) running on host
+- Minikube + Helm if you want the Kubernetes deployment
 
 ```bash
 # Pull the LLM
@@ -93,6 +94,30 @@ docker compose -f docker-compose.dev.yml up -d
 
 # Run tests
 uv run pytest services/ libs/ -q
+```
+
+### Minikube on Windows
+
+The Windows helper deploys Aurevia to a local Minikube cluster, builds the Docker
+images inside Minikube, deploys the Helm chart, then opens port-forward windows.
+
+```powershell
+cd D:\4DS\value\Aurevia_platform-master
+powershell -ExecutionPolicy Bypass -File scripts\minikube-start.ps1
+```
+
+Open:
+
+```text
+Frontend: http://127.0.0.1:5173
+API:      http://127.0.0.1:8000
+Keycloak: http://127.0.0.1:8180
+```
+
+Stop:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts\minikube-stop.ps1
 ```
 
 ### Document RAG
