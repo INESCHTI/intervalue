@@ -1,0 +1,87 @@
+{
+  "run_id": "run_20260618_155111_cbb3ad",
+  "sut_version": "baseline-web",
+  "created_at": "2026-06-18T15:51:11.747675+00:00",
+  "channels": [
+    "web"
+  ],
+  "scenarios": [
+    {
+      "test_case": {
+        "id": "S01",
+        "intent": "portfolio_aum",
+        "type": "nominal",
+        "input": "What is my total assets under management?",
+        "expected": "Total AUM is approximately $20.4M across 48 deals.",
+        "channels": [
+          "api",
+          "web",
+          "mobile"
+        ]
+      },
+      "results": {
+        "web": {
+          "channel": "web",
+          "actual": "[web error] Page.wait_for_selector: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator(\"input.composer-input\") to be visible",
+          "status_code": 200,
+          "latency_ms": 49938.1,
+          "ttft_ms": null,
+          "timed_out": false,
+          "crashed": true,
+          "screenshot": "C:\\Users\\amine\\Desktop\\project\\qa-swarm\\swarm_qa\\runs\\_screens\\S01_web_1781797871.png",
+          "error": ""
+        }
+      },
+      "scores": {
+        "web": {
+          "pertinence": 0.0,
+          "exactitude": 0.0,
+          "coherence": 0.0,
+          "format_ok": false,
+          "hallucination": false,
+          "verdict": "FAIL",
+          "reason": "crash/5xx (status 200)"
+        }
+      },
+      "divergence": null
+    },
+    {
+      "test_case": {
+        "id": "S02",
+        "intent": "performance_twr",
+        "type": "nominal",
+        "input": "What is my inception-to-date time-weighted return?",
+        "expected": "Inception-to-date TWR is about 178.65%.",
+        "channels": [
+          "api",
+          "web"
+        ]
+      },
+      "results": {
+        "web": {
+          "channel": "web",
+          "actual": "[web error] Page.wait_for_selector: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator(\"input.composer-input\") to be visible",
+          "status_code": 200,
+          "latency_ms": 17193.1,
+          "ttft_ms": null,
+          "timed_out": false,
+          "crashed": true,
+          "screenshot": "C:\\Users\\amine\\Desktop\\project\\qa-swarm\\swarm_qa\\runs\\_screens\\S02_web_1781797932.png",
+          "error": ""
+        }
+      },
+      "scores": {
+        "web": {
+          "pertinence": 0.0,
+          "exactitude": 0.0,
+          "coherence": 0.0,
+          "format_ok": false,
+          "hallucination": false,
+          "verdict": "FAIL",
+          "reason": "crash/5xx (status 200)"
+        }
+      },
+      "divergence": null
+    }
+  ]
+}
