@@ -1,0 +1,58 @@
+\babel@toc {french}{}\relax 
+\contentsline {chapter}{Remerciements}{i}{chapter*.1}%
+\contentsline {chapter}{Résumé}{ii}{chapter*.2}%
+\contentsline {chapter}{Introduction générale}{1}{chapter*.4}%
+\contentsline {chapter}{\numberline {1}Contexte général du projet}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduction}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Organisme d'accueil}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Cadre du stage}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Étude de l'existant et problématique}{2}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Le système à tester}{2}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Problématique}{2}{subsection.1.4.2}%
+\contentsline {section}{\numberline {1.5}Objectifs du projet}{3}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Méthodologie de travail}{3}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Conclusion}{3}{section.1.7}%
+\contentsline {chapter}{\numberline {2}État de l'art et étude technologique}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Le test des agents conversationnels}{4}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Les petits modèles de langage (SLM) et Ollama}{4}{section.2.3}%
+\contentsline {section}{\numberline {2.4}OpenAI Swarm}{4}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Outils de test multi-canal}{5}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}API REST}{5}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Playwright (Web)}{5}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Appium (Mobile)}{5}{subsection.2.5.3}%
+\contentsline {section}{\numberline {2.6}Techniques d'évaluation de la qualité textuelle}{5}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Conclusion}{5}{section.2.7}%
+\contentsline {chapter}{\numberline {3}Analyse et spécification des besoins}{6}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{6}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Identification des acteurs}{6}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Besoins fonctionnels}{6}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Besoins non fonctionnels}{6}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Le système sous test (SUT)}{7}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Conclusion}{8}{section.3.6}%
+\contentsline {chapter}{\numberline {4}Conception du système}{9}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{9}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Architecture globale}{9}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Conception des canaux de test}{9}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Conception du scoring}{10}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Conception de la détection de régression}{10}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Conception du planificateur de correctifs}{10}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Modèle de données}{11}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Conclusion}{11}{section.4.8}%
+\contentsline {chapter}{\numberline {5}Réalisation}{12}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introduction}{12}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Environnement de travail}{12}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Environnement matériel}{12}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Environnement logiciel}{12}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}Implémentation des agents et des canaux}{13}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Connexion de Swarm à Ollama}{13}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Le canal API}{13}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}L'évaluation hybride}{13}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}La détection de régression}{14}{subsection.5.3.4}%
+\contentsline {section}{\numberline {5.4}Le corpus de test}{14}{section.5.4}%
+\contentsline {section}{\numberline {5.5}La console d'administration (backoffice)}{15}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Critères d'évaluation et verdicts}{16}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Tests et qualité du code}{16}{section.5.7}%
+\contentsline {section}{\numberline {5.8}Conclusion}{16}{section.5.8}%
+\contentsline {chapter}{Conclusion générale et perspectives}{17}{chapter*.16}%
+\contentsline {chapter}{Bibliographie et webographie}{18}{chapter*.17}%

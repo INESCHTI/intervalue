@@ -1,0 +1,12 @@
+\babel@toc {french}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Tableau de bord du SUT \textit {LaRuche}{} — vue portefeuille avec indicateurs financiers.}}{10}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Interface de l'assistant conversationnel du SUT (Agent Mesh 7/7).}}{10}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Page Portfolio — suivi des investissements du portefeuille.}}{11}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Page Marché — données de marché et indicateurs économiques en temps réel.}}{11}{figure.caption.11}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Console QA-Swarm — liste des exécutions avec taux de réussite et liens vers les tableaux de bord, rapports Markdown/JSON et plans de correctifs.}}{20}{figure.caption.17}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Corpus de 52 scénarios de test classés par type (nominal, limite, adversarial) et par canaux ciblés (API, Web, Mobile).}}{21}{figure.caption.18}%

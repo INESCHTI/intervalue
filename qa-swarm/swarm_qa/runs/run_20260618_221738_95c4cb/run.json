@@ -1,0 +1,387 @@
+{
+  "run_id": "run_20260618_221738_95c4cb",
+  "sut_version": "v2-mesh-up",
+  "created_at": "2026-06-18T22:17:38.274927+00:00",
+  "channels": [
+    "api"
+  ],
+  "scenarios": [
+    {
+      "test_case": {
+        "id": "S01",
+        "intent": "portfolio_aum",
+        "type": "nominal",
+        "input": "What is my total assets under management?",
+        "expected": "Total AUM is approximately $20.4M across 48 deals.",
+        "channels": [
+          "api",
+          "web",
+          "mobile"
+        ]
+      },
+      "results": {
+        "api": {
+          "channel": "api",
+          "actual": "Your total assets under management are $20.4M.",
+          "status_code": 200,
+          "latency_ms": 18003.2,
+          "ttft_ms": 18002.7,
+          "timed_out": false,
+          "crashed": false,
+          "screenshot": "",
+          "error": ""
+        }
+      },
+      "scores": {
+        "api": {
+          "pertinence": 5.0,
+          "exactitude": 5.0,
+          "coherence": 5.0,
+          "format_ok": true,
+          "hallucination": false,
+          "verdict": "PASS",
+          "reason": ""
+        }
+      },
+      "divergence": null
+    },
+    {
+      "test_case": {
+        "id": "S02",
+        "intent": "performance_twr",
+        "type": "nominal",
+        "input": "What is my inception-to-date time-weighted return?",
+        "expected": "Inception-to-date TWR is about 178.65%.",
+        "channels": [
+          "api",
+          "web"
+        ]
+      },
+      "results": {
+        "api": {
+          "channel": "api",
+          "actual": "Your inception-to-date time-weighted return (inception-to-date TWR) is 178.65%.",
+          "status_code": 200,
+          "latency_ms": 17666.2,
+          "ttft_ms": 17665.7,
+          "timed_out": false,
+          "crashed": false,
+          "screenshot": "",
+          "error": ""
+        }
+      },
+      "scores": {
+        "api": {
+          "pertinence": 5.0,
+          "exactitude": 5.0,
+          "coherence": 5.0,
+          "format_ok": true,
+          "hallucination": false,
+          "verdict": "PASS",
+          "reason": ""
+        }
+      },
+      "divergence": null
+    },
+    {
+      "test_case": {
+        "id": "S03",
+        "intent": "annualized_return",
+        "type": "nominal",
+        "input": "What is my annualized return?",
+        "expected": "Annualized return is about 7.14%.",
+        "channels": [
+          "api"
+        ]
+      },
+      "results": {
+        "api": {
+          "channel": "api",
+          "actual": "Your annualized return is 7.13%.",
+          "status_code": 200,
+          "latency_ms": 15990.0,
+          "ttft_ms": 15989.6,
+          "timed_out": false,
+          "crashed": false,
+          "screenshot": "",
+          "error": ""
+        }
+      },
+      "scores": {
+        "api": {
+          "pertinence": 5.0,
+          "exactitude": 5.0,
+          "coherence": 5.0,
+          "format_ok": true,
+          "hallucination": false,
+          "verdict": "PASS",
+          "reason": ""
+        }
+      },
+      "divergence": null
+    },
+    {
+      "test_case": {
+        "id": "S04",
+        "intent": "sharpe_ratio",
+        "type": "nominal",
+        "input": "What is my Sharpe ratio?",
+        "expected": "Sharpe ratio is about 0.58.",
+        "channels": [
+          "api"
+        ]
+      },
+      "results": {
+        "api": {
+          "channel": "api",
+          "actual": "Your Sharpe ratio is 0.58.",
+          "status_code": 200,
+          "latency_ms": 16236.4,
+          "ttft_ms": 16235.7,
+          "timed_out": false,
+          "crashed": false,
+          "screenshot": "",
+          "error": ""
+        }
+      },
+      "scores": {
+        "api": {
+          "pertinence": 5.0,
+          "exactitude": 5.0,
+          "coherence": 5.0,
+          "format_ok": true,
+          "hallucination": false,
+          "verdict": "PASS",
+          "reason": ""
+        }
+      },
+      "divergence": null
+    },
+    {
+      "test_case": {
+        "id": "S05",
+        "intent": "geo_breakdown",
+        "type": "nominal",
+        "input": "Show me my geographic allocation.",
+        "expected": "Asia 37%, North America 35%, Global 16%, Europe 8%, Middle East 4%.",
+        "channels": [
+          "api",
+          "web"
+        ]
+      },
+      "results": {
+        "api": {
+          "channel": "api",
+          "actual": "Based on the provided geographic breakdown, your portfolio is allocated as follows:\n\n- Asia: 37%\n- North America: 35%\n- Global: 16%\n- Europe: 8%\n- Middle East: 4%\n\nThis information shows that a significant portion of your portfolio (35%) is invested in North America and another substantial part (37%) in Asia.",
+          "status_code": 200,
+          "latency_ms": 22567.2,
+          "ttft_ms": 22566.1,
+          "timed_out": false,
+          "crashed": false,
+          "screenshot": "",
+          "error": ""
+        }
+      },
+      "scores": {
+        "api": {
+          "pertinence": 5.0,
+          "exactitude": 5.0,
+          "coherence": 5.0,
+          "format_ok": true,
+          "hallucination": false,
+          "verdict": "PASS",
+          "reason": ""
+        }
+      },
+      "divergence": null
+    },
+    {
+      "test_case": {
+        "id": "S06",
+        "intent": "sector_breakdown",
+        "type": "nominal",
+        "input": "What is my allocation by sector?",
+        "expected": "Real Estate 45%, Private Equity 35%, Equities 15%, Credit 5%.",
+        "channels": [
+          "api",
+          "web"
+        ]
+      },
+      "results": {
+        "api": {
+          "channel": "api",
+          "actual": "Based on the provided data, your allocation by sector is as follows:\n\n- Real Estate: 45%\n- Private Equity: 35%\n- Equities: 15%\n- Credit: 5%",
+          "status_code": 200,
+          "latency_ms": 19028.9,
+          "ttft_ms": 19028.2,
+          "timed_out": false,
+          "crashed": false,
+          "screenshot": "",
+          "error": ""
+        }
+      },
+      "scores": {
+        "api": {
+          "pertinence": 5.0,
+          "exactitude": 5.0,
+          "coherence": 5.0,
+          "format_ok": true,
+          "hallucination": false,
+          "verdict": "PASS",
+          "reason": "Exactly matches EXPECTED format and values"
+        }
+      },
+      "divergence": null
+    },
+    {
+      "test_case": {
+        "id": "S07",
+        "intent": "top_deals",
+        "type": "nominal",
+        "input": "What are my top deals by MOIC?",
+        "expected": "Top deals include Aurora Brands at about 1.55x MOIC.",
+        "channels": [
+          "api"
+        ]
+      },
+      "results": {
+        "api": {
+          "channel": "api",
+          "actual": "Based on the provided data, your top deals by MOIC are:\n\n1. Aurora Brands — 1.55x MOIC (PE, exited)\n2. Project Summit — 1.52x MOIC (PE, exited)\n\nThese two deals have the highest multiple of invested capital (MOIC) among your current portfolio holdings.",
+          "status_code": 200,
+          "latency_ms": 19836.5,
+          "ttft_ms": 19835.5,
+          "timed_out": false,
+          "crashed": false,
+          "screenshot": "",
+          "error": ""
+        }
+      },
+      "scores": {
+        "api": {
+          "pertinence": 5.0,
+          "exactitude": 5.0,
+          "coherence": 5.0,
+          "format_ok": true,
+          "hallucination": false,
+          "verdict": "PASS",
+          "reason": ""
+        }
+      },
+      "divergence": null
+    },
+    {
+      "test_case": {
+        "id": "S08",
+        "intent": "num_deals",
+        "type": "nominal",
+        "input": "How many deals are in my portfolio?",
+        "expected": "There are 48 deals in the portfolio.",
+        "channels": [
+          "api",
+          "mobile"
+        ]
+      },
+      "results": {
+        "api": {
+          "channel": "api",
+          "actual": "In your portfolio, there are 48 deals.",
+          "status_code": 200,
+          "latency_ms": 15387.3,
+          "ttft_ms": 15386.9,
+          "timed_out": false,
+          "crashed": false,
+          "screenshot": "",
+          "error": ""
+        }
+      },
+      "scores": {
+        "api": {
+          "pertinence": 5.0,
+          "exactitude": 5.0,
+          "coherence": 5.0,
+          "format_ok": true,
+          "hallucination": false,
+          "verdict": "PASS",
+          "reason": ""
+        }
+      },
+      "divergence": null
+    },
+    {
+      "test_case": {
+        "id": "S09",
+        "intent": "market_overview",
+        "type": "nominal",
+        "input": "How are the markets doing today?",
+        "expected": "A short market overview with index levels / quotes; numbers grounded, not invented.",
+        "channels": [
+          "api"
+        ]
+      },
+      "results": {
+        "api": {
+          "channel": "api",
+          "actual": "The markets, as reflected in your portfolio, are performing well with an inception-to-date total return (inception-to-date TWR) of 178.65%. This indicates a significant positive performance since the portfolio's inception. However, it's important to note that the volatility stands at 12.27%, which suggests some level of market fluctuation during this period. The annualized return is 7.13% and the internal rate of return (IRR) is 8.30%. These metrics provide a balanced view of your portfolio's performance, considering both returns and risk.",
+          "status_code": 200,
+          "latency_ms": 25893.6,
+          "ttft_ms": 25892.0,
+          "timed_out": false,
+          "crashed": false,
+          "screenshot": "",
+          "error": ""
+        }
+      },
+      "scores": {
+        "api": {
+          "pertinence": 5.0,
+          "exactitude": 4.0,
+          "coherence": 5.0,
+          "format_ok": true,
+          "hallucination": false,
+          "verdict": "PASS",
+          "reason": ""
+        }
+      },
+      "divergence": null
+    },
+    {
+      "test_case": {
+        "id": "S10",
+        "intent": "doc_lookup",
+        "type": "nominal",
+        "input": "Tell me more about the Aurora Brands investment.",
+        "expected": "Aurora Brands: private equity, acquired 2015, exited 2022, MOIC 1.55x.",
+        "channels": [
+          "api",
+          "web"
+        ]
+      },
+      "results": {
+        "api": {
+          "channel": "api",
+          "actual": "Based on the provided excerpts, Aurora Brands was an investment made by a private equity firm in June 2015. The commitment for this investment was $500K and it was exited in June 2022. The acquisition resulted in a net asset value (NAV) of $775K, indicating a multiple of invested capital (MOIC) of approximately 1.55x.\n\nIn contrast, Aurora Brands is described as different from Project Delta, which appears to be an active investment made by the Meridian Family Office in March 2018. The commitment for Project Delta was $400K and its current net asset value (NAV) stands at $588K, resulting in a MOIC of approximately 1.47x.\n\nThe document also provides a broader overview of the portfolio managed by Meridian Family Office, which includes investments across various sectors such as Real Estate, Private Equity, Equities, and Credit, with specific allocations to different geographies like Asia, North America, Global, Europe, and Middle East.",
+          "status_code": 200,
+          "latency_ms": 10957.2,
+          "ttft_ms": 10954.6,
+          "timed_out": false,
+          "crashed": false,
+          "screenshot": "",
+          "error": ""
+        }
+      },
+      "scores": {
+        "api": {
+          "pertinence": 3.0,
+          "exactitude": 2.0,
+          "coherence": 4.0,
+          "format_ok": true,
+          "hallucination": false,
+          "verdict": "PASS",
+          "reason": "The reply provides broader portfolio information instead of just Aurora Brands investment details."
+        }
+      },
+      "divergence": null
+    }
+  ]
+}

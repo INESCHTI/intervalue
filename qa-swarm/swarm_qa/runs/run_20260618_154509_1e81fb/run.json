@@ -1,0 +1,199 @@
+{
+  "run_id": "run_20260618_154509_1e81fb",
+  "sut_version": "baseline",
+  "created_at": "2026-06-18T15:45:09.767652+00:00",
+  "channels": [
+    "api"
+  ],
+  "scenarios": [
+    {
+      "test_case": {
+        "id": "S01",
+        "intent": "portfolio_aum",
+        "type": "nominal",
+        "input": "What is my total assets under management?",
+        "expected": "Total AUM is approximately $20.4M across 48 deals.",
+        "channels": [
+          "api",
+          "web",
+          "mobile"
+        ]
+      },
+      "results": {
+        "api": {
+          "channel": "api",
+          "actual": "Your total assets under management are $20.4M.",
+          "status_code": 200,
+          "latency_ms": 4938.7,
+          "ttft_ms": 4938.1,
+          "timed_out": false,
+          "crashed": false,
+          "screenshot": "",
+          "error": ""
+        }
+      },
+      "scores": {
+        "api": {
+          "pertinence": 5.0,
+          "exactitude": 5.0,
+          "coherence": 5.0,
+          "format_ok": true,
+          "hallucination": false,
+          "verdict": "PASS",
+          "reason": ""
+        }
+      },
+      "divergence": null
+    },
+    {
+      "test_case": {
+        "id": "S02",
+        "intent": "performance_twr",
+        "type": "nominal",
+        "input": "What is my inception-to-date time-weighted return?",
+        "expected": "Inception-to-date TWR is about 178.65%.",
+        "channels": [
+          "api",
+          "web"
+        ]
+      },
+      "results": {
+        "api": {
+          "channel": "api",
+          "actual": "Your inception-to-date time-weighted return (inception-to-date TWR) is 178.65%.",
+          "status_code": 200,
+          "latency_ms": 17484.4,
+          "ttft_ms": 17483.9,
+          "timed_out": false,
+          "crashed": false,
+          "screenshot": "",
+          "error": ""
+        }
+      },
+      "scores": {
+        "api": {
+          "pertinence": 5.0,
+          "exactitude": 5.0,
+          "coherence": 5.0,
+          "format_ok": true,
+          "hallucination": false,
+          "verdict": "PASS",
+          "reason": ""
+        }
+      },
+      "divergence": null
+    },
+    {
+      "test_case": {
+        "id": "S03",
+        "intent": "annualized_return",
+        "type": "nominal",
+        "input": "What is my annualized return?",
+        "expected": "Annualized return is about 7.14%.",
+        "channels": [
+          "api"
+        ]
+      },
+      "results": {
+        "api": {
+          "channel": "api",
+          "actual": "Your annualized return is 7.13%.",
+          "status_code": 200,
+          "latency_ms": 16420.8,
+          "ttft_ms": 16420.3,
+          "timed_out": false,
+          "crashed": false,
+          "screenshot": "",
+          "error": ""
+        }
+      },
+      "scores": {
+        "api": {
+          "pertinence": 5.0,
+          "exactitude": 5.0,
+          "coherence": 5.0,
+          "format_ok": true,
+          "hallucination": false,
+          "verdict": "PASS",
+          "reason": ""
+        }
+      },
+      "divergence": null
+    },
+    {
+      "test_case": {
+        "id": "S04",
+        "intent": "sharpe_ratio",
+        "type": "nominal",
+        "input": "What is my Sharpe ratio?",
+        "expected": "Sharpe ratio is about 0.58.",
+        "channels": [
+          "api"
+        ]
+      },
+      "results": {
+        "api": {
+          "channel": "api",
+          "actual": "Your Sharpe ratio is 0.58.",
+          "status_code": 200,
+          "latency_ms": 15839.1,
+          "ttft_ms": 15838.7,
+          "timed_out": false,
+          "crashed": false,
+          "screenshot": "",
+          "error": ""
+        }
+      },
+      "scores": {
+        "api": {
+          "pertinence": 5.0,
+          "exactitude": 5.0,
+          "coherence": 5.0,
+          "format_ok": true,
+          "hallucination": false,
+          "verdict": "PASS",
+          "reason": ""
+        }
+      },
+      "divergence": null
+    },
+    {
+      "test_case": {
+        "id": "S05",
+        "intent": "geo_breakdown",
+        "type": "nominal",
+        "input": "Show me my geographic allocation.",
+        "expected": "Asia 37%, North America 35%, Global 16%, Europe 8%, Middle East 4%.",
+        "channels": [
+          "api",
+          "web"
+        ]
+      },
+      "results": {
+        "api": {
+          "channel": "api",
+          "actual": "Based on the provided geographic breakdown, your portfolio is allocated as follows:\n\n- Asia: 37%\n- North America: 35%\n- Global: 16%\n- Europe: 8%\n- Middle East: 4%\n\nThis information shows that a significant portion of your portfolio (35%) is invested in North America and another substantial part (37%) in Asia.",
+          "status_code": 200,
+          "latency_ms": 22666.6,
+          "ttft_ms": 22665.3,
+          "timed_out": false,
+          "crashed": false,
+          "screenshot": "",
+          "error": ""
+        }
+      },
+      "scores": {
+        "api": {
+          "pertinence": 5.0,
+          "exactitude": 5.0,
+          "coherence": 5.0,
+          "format_ok": true,
+          "hallucination": false,
+          "verdict": "PASS",
+          "reason": ""
+        }
+      },
+      "divergence": null
+    }
+  ]
+}
