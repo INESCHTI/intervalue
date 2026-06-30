@@ -1,8 +1,0 @@
-INFO:     127.0.0.1:63740 - "GET /health HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56562 - "GET /api/portfolio/summary HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56072 - "GET /api/portfolio/allocation HTTP/1.1" 200 OK
-INFO:     127.0.0.1:62928 - "OPTIONS /api/portfolio/deals HTTP/1.1" 200 OK
-INFO:     127.0.0.1:62928 - "GET /api/portfolio/deals HTTP/1.1" 200 OK
-INFO:     127.0.0.1:62928 - "OPTIONS /api/market HTTP/1.1" 200 OK
-INFO:     127.0.0.1:62928 - "GET /api/market HTTP/1.1" 200 OK
-
