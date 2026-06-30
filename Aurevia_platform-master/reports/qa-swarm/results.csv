@@ -1,0 +1,4 @@
+id,channel,intent,status,latency_s,score,hallucination,verdict
+web-chat-aum,web,web_chat_financial_aum,ok,37.282,0.667,False,WARN
+web-dashboard-dom,web,web_dashboard_dom,ok,6.487,1.0,False,PASS
+

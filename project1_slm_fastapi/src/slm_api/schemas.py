@@ -8,7 +8,7 @@ TaskName = Literal["summarize", "extract", "qa", "classify"]
 
 class ProcessRequest(BaseModel):
     text: str = Field(..., min_length=1)
-    model: str = "mistral"
+    model: str = "mistral:7b"
     task: TaskName = "summarize"
 
 
@@ -18,3 +18,5 @@ class ProcessResponse(BaseModel):
     task: TaskName
     source: str
     latency_s: float | None = None
+    token_count: int | None = None
+    tokens_per_sec: float | None = None

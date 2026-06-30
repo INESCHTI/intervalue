@@ -1,8 +1,21 @@
 TEMPLATES = {
-    "summarize": "Tu es un assistant de synthèse. Résume le texte en français de façon concise.\n\nTexte:\n{TEXT}",
-    "extract": "Tu es un assistant d'extraction. Retourne seulement les entités et chiffres utiles en JSON.\n\nTexte:\n{TEXT}",
-    "qa": "Tu es un assistant de question/réponse. Réponds en français à partir du texte suivant.\n\nTexte:\n{TEXT}",
-    "classify": "Tu es un assistant de classification. Retourne la catégorie la plus probable.\n\nTexte:\n{TEXT}",
+    "summarize": (
+        "Tu es un assistant de synthese. Resume le texte en francais de facon concise.\n\n"
+        "Texte:\n{TEXT}"
+    ),
+    "extract": (
+        "Tu es un assistant d'extraction. Retourne seulement les entites et chiffres utiles en JSON.\n\n"
+        "Texte:\n{TEXT}"
+    ),
+    "qa": (
+        "Tu es un assistant de question/reponse. Reponds en francais a partir du texte suivant.\n\n"
+        "Texte:\n{TEXT}"
+    ),
+    "classify": (
+        "Tu es un assistant de classification. Classe le texte dans une seule categorie parmi: "
+        "support, finance, technique, juridique, autre. Retourne seulement la categorie.\n\n"
+        "Texte:\n{TEXT}"
+    ),
 }
 
 

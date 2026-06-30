@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+*.egg-info/
+dist/
+build/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Node
+node_modules/
+.next/
+dist/
+.expo/
+*.tsbuildinfo
+frontend/test-results/
+frontend/playwright-report/
+
+# Docker / K8s
+*.pem
+*.key
+*.crt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MLflow / Langfuse
+mlruns/
+mlartifacts/
+
+# Secrets
+*.env.local
+secrets/
+
+# Local tooling & runtime logs
+.claude/
+.runtime-logs/
+
+# Raw design exports kept locally; optimized web assets live in frontend/public/brand.
+Logo/animated_gif.gif

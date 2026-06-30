@@ -2,13 +2,25 @@
   {
     "id": "p1-1",
     "task": "summarize",
-    "model": "mistral",
-    "text": "Le projet vise à déployer des SLMs en local et à les exposer via une API FastAPI."
+    "text": "Le projet vise a deployer des SLMs en local avec Ollama et a les exposer via une API FastAPI pour executer des taches NLP.",
+    "expected_keywords": ["SLMs", "Ollama", "FastAPI"]
   },
   {
     "id": "p1-2",
     "task": "extract",
-    "model": "mistral",
-    "text": "Acme a généré 1 200 000 € de revenus en 2025."
+    "text": "Acme a genere 1 200 000 euros de revenus en 2025 grace a son produit IA.",
+    "expected_keywords": ["Acme", "1 200 000", "2025"]
+  },
+  {
+    "id": "p1-3",
+    "task": "qa",
+    "text": "Contexte: Docker Desktop sert a construire des images conteneurisees. Minikube sert a simuler un cluster Kubernetes local. Question: A quoi sert Minikube ?",
+    "expected_keywords": ["cluster", "Kubernetes", "local"]
+  },
+  {
+    "id": "p1-4",
+    "task": "classify",
+    "text": "Le client signale une erreur 500 lors de la connexion a son espace utilisateur.",
+    "expected_keywords": ["support"]
   }
 ]
